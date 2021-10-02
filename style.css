@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    padding: 40px;
+}
+
+ul {
+    width: 500px;
+}
+
+li {
+    list-style: none;
+    background-color: rgb(182, 175, 166);
+    border: 1px solid rgb(124, 126, 97);
+    position: relative;
+}
+
+a {
+    color: rgb(103, 121, 55);
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+a:after {
+    content: '';
+    position: absolute;
+    right: 5px;
+    bottom: 50%;
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border: 8px solid red;
+    border-color: transparent;
+    border-top-color: black;
+    border-bottom: none;
+}
